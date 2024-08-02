@@ -116,6 +116,8 @@ dependencies {
   testFixturesApi 'org.awaitility:awaitility:4.2.1'
   testFixturesApi "commons-io:commons-io:2.16.1"
 
+  testImplementation "org.wiremock:wiremock:3.9.1"
+  
   testImplementation "junit:junit:4.13.2"
   testRuntimeOnly("org.junit.vintage:junit-vintage-engine")
   testImplementation 'org.scala-lang:scala-library:2.13.14'
